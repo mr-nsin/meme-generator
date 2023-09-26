@@ -37,11 +37,17 @@ main {
   gap: 17px;
 }
 
-.form--inputs {
+.form--input {
   font-family: "Karla", sans-serif;
   border-radius: 5px;
+  border: 1px solid #D5D4DB;
+  text-indent: 5px;
 }
 
 .form--button {
   grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+  background: linear-gradient(90.141deg, #711F8D 1.14%, #AB18DA 100%);
+  color: white;
 }
