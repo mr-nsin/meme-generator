@@ -1,0 +1,47 @@
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+main {
+  padding: 36px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background: linear-gradient(98deg, #672280, 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.header--image {
+  height: 250%;
+  margin-right: 10px;
+}
+
+.header--title {
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.header--project {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
+}
+
+.form--inputs {
+  font-family: "Karla", sans-serif;
+  border-radius: 5px;
+}
+
+.form--button {
+  grid-column: 1 / -1;
+}
