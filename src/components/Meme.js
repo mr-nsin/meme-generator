@@ -1,7 +1,10 @@
 export default function Meme(){
+    function handleClick() {
+        console.log("I was clicked")
+    }
     return (
         <main>
-            <form className="form">
+            <div className="form">
                 <input 
                     type="text"
                     placeholder="Top Text"
@@ -12,10 +15,10 @@ export default function Meme(){
                     placeholder="Bottom Text"
                     className="form--input"
                 />
-                <button className="form--button">
+                <button className="form--button" onClick={handleClick}>
                     Get a new meme image
                 </button>
-            </form>
+            </div>
         </main>
     )
 }
